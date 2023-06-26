@@ -16,7 +16,9 @@ function calculteAvarege(noteOne, noteTwo, noteOptional) {
         noteTwo = noteOptional
     }
 
-    console.log(noteOne, noteTwo, noteOptional)
+    const avarege = (noteOne + noteTwo) / 2
+    return avarege
 }
 
-calculteAvarege(assessmentOne, assessmentTwo, assessmentOptional)
+const avaregeStudentOne = calculteAvarege(assessmentOne, assessmentTwo, assessmentOptional)
+const avaregeStudentTwo = calculteAvarege(2, 5, 7)
